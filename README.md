@@ -2,15 +2,15 @@
 Project dự báo thời tiết tại một tỉnh ở miền Bắc Việt Nam bằng cách sử dụng mô hình Recurent Neural Network/ Long Short Term Memory
 
 ### Các thư viện và ngôn ngữ được sử dụng:
-* Python 3.10: toàn bộ project đều sử dụng ngôn ngữ lập trình Python
-* Numpy: xử lý dữ liệu số, dữ liệu dạng mảng,...
-* Pandas: làm việc với dữ liệu dạng bảng, cụ thể là `csv` 
-* Matplotlib và Seaborn: trực quan hoá dữ liệu
-* seasonal_decompose from statsmodels.tsa.seasonal: phân rã dữ liệu dạng `seasonal` thành các yếu tố `mùa vụ`, `xu hướng`, và `phần bất định` (được sử dụng ở Data preprocessing)
-* Medfilt from scipy.signal: lọc trung vị để giảm độ bất định của dữ liệu (được sử dụng ở Data preprocessing)
-* MinMaxScaler from sklearn.preprocessing: scale dữ liệu về khoảng nhỏ hơn trước khi bắt đầu huấn luyện
-* Keras from Tensorflow 2: xây dựng mô hình học máy
-* mean_absolute_error và BinaryAccuracy from keras.metrics để đánh giá kết quả dự đoán của mô hình
+* `Python 3.10`: toàn bộ project đều sử dụng ngôn ngữ lập trình Python
+* `Numpy`: xử lý dữ liệu số, dữ liệu dạng mảng,...
+* `Pandas`: làm việc với dữ liệu dạng bảng, cụ thể là `csv` 
+* `Matplotlib` và `Seaborn`: trực quan hoá dữ liệu
+* `seasonal_decompose` from statsmodels.tsa.seasonal: phân rã dữ liệu dạng `seasonal` thành các yếu tố `mùa vụ`, `xu hướng`, và `phần bất định` (được sử dụng ở Data preprocessing)
+* `Medfilt` from scipy.signal: lọc trung vị để giảm độ bất định của dữ liệu (được sử dụng ở Data preprocessing)
+* `MinMaxScaler` from sklearn.preprocessing: scale dữ liệu về khoảng nhỏ hơn trước khi bắt đầu huấn luyện
+* `Keras` from Tensorflow 2: xây dựng mô hình học máy
+* `mean_absolute_error` và `BinaryAccuracy` from keras.metrics để đánh giá kết quả dự đoán của mô hình
 
 ### Cách sử dụng:
 * Dữ liệu thô được lưu trữ trong folder `raw_data` dưới dạng `.csv`
