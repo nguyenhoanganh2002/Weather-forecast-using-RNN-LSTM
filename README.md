@@ -19,5 +19,9 @@ Project dự báo thời tiết tại một tỉnh ở miền Bắc Việt Nam b
 * Cũng trong file `RNN.ipynb` và `LSTM.ipynb`, tiến hành load mô hình tốt nhất lên và đánh giá nó
 * Nhóm đã lưu các đánh giá dưới dạng hình ảnh trong folder `image`
 
+### Bèm ăn gì
+* 1. Đầu buồi
+* 2. Cứt
+
 ### Thông tin liên lạc:
 * Email: anh.nh204511@gmail.com
